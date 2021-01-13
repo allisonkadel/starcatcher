@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Label } from '../../data/label';
 
 // stylesheets
-import './Label.css'
+import './LabelTag.css'
 
 type Props = {
     label: Label

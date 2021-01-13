@@ -43,6 +43,7 @@ class IssuesContainer extends React.Component {
         console.log(this.state.issues)
         return (
             <div>
+                <h2>Current Issues</h2>
                 {this.renderIssues()}
             </div>
         )

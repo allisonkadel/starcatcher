@@ -7,7 +7,7 @@ import { Issue } from '../../data/issue';
 import './IssueCard.css'
 
 // components
-import LabelTag from '../Label/LabelTag'
+import LabelTag from '../LabelTag/LabelTag'
 
 type Props = {
     issue: Issue
