@@ -11,7 +11,7 @@ const IssueCard = ({issue}: Props) => {
     return (
       <div>
         <h3>{issue.title}</h3>
-        {/* <p>{issue.labels}</p> */}
+        <ul>{issue.labels.map(label => <li>{label.name}</li>)}</ul>
         <p>{issue.state}</p>
       </div>
     );

@@ -1,5 +1,7 @@
+import { Label } from './label';
+
 export interface Issue {
     title: string;
-    labels: string[];
+    labels: Label[];
     state: string;
 }
