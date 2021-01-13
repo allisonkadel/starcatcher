@@ -1,0 +1,19 @@
+.IssueCard {
+    background: whitesmoke;
+    float: left;
+    margin: 1.0%;
+    width: 31.3%;
+    height: 250px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.IssueCard h4 {
+    color: rgb(65, 25, 102);
+}
+
+@media only screen and (max-width: 480px) {
+    .IssueCard {
+        width: 98%;
+    }
+}
