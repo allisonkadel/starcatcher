@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 // components
+import IssueCard from '../../components/IssueCard/IssueCard';
 
 // data
 import { Issue } from '../../data/issue';
@@ -34,11 +35,7 @@ class IssuesContainer extends React.Component {
 
     renderIssues = () => {
         return this.state.issues.map((issue: Issue) => (
-            <div>
-                <h2>{issue.title}</h2>
-                <p>{issue.label}</p>
-                <p>{issue.state}</p>
-            </div>
+            <IssueCard issue={issue}/>
         ));
     }
 

@@ -1,5 +1,5 @@
 export interface Issue {
     title: string;
-    label: string;
+    labels: string[];
     state: string;
 }
